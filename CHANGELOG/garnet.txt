@@ -1,0 +1,13 @@
+AxionOS V2.0 Community Version
+Build date: 13.09.2025
+
+==============================
+- Inital OTA
+==============================
+
+Notes:
+- Use the latest global firmware
+- MIUI Camera will always be included
+- Dolby Atmos will always be included
+- KernelSU-Next + SusFS support will always be included
+- Do not use a custom kernel
