@@ -1,8 +1,12 @@
 AxionOS V2.0 Community Version
-Build date: 13.09.2025
+Build date: 14.09.2025
 
 ==============================
-- Inital OTA
+- Fix OTA update
+- Improvemente statud bar padding
+- Updated settings icons for UI consistency
+- Add libcameraservice extension config
+- Low-end memory optimization
 ==============================
 
 Notes:
