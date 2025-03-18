@@ -1,5 +1,5 @@
 AxionOS V2.0 Beta 4 Community Version
-Build date: 17.09.2025
+Build date: 18.09.2025
 Security Patch: September 2025
 
 ==============================
@@ -10,9 +10,11 @@ https://github.com/AxionAOSP/axion_changelogs
 ==============================
 
 Devices:
+- Fix Advanced Protection Settings bug
+- Fix UFPS icon position during biometric registration
+- Prevent creation of pre-built Lineage apps
+- Switch to Google Apps
 - Update Brazilian Portuguese translation
-- Fix crash in Advanced Protection settings
-- Don't build Lineage prebuilt apps
 
 ==============================
 Notes:
