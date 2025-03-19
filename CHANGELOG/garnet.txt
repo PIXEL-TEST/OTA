@@ -10,6 +10,8 @@ https://github.com/AxionAOSP/axion_changelogs
 ==============================
 
 Devices:
+- Implement torch light control
+- Fix DocumentsUIGoogle
 - Fix Advanced Protection Settings bug
 - Fix UFPS icon position during biometric registration
 - Prevent creation of pre-built Lineage apps
