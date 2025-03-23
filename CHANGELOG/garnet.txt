@@ -1,5 +1,5 @@
 AxionOS V2.0 Beta 4 Community Version
-Build date: 18.09.2025
+Build date: 23.09.2025
 Security Patch: September 2025
 
 ==============================
@@ -10,12 +10,10 @@ https://github.com/AxionAOSP/axion_changelogs
 ==============================
 
 Devices:
-- Implement torch light control
-- Fix DocumentsUIGoogle
-- Fix Advanced Protection Settings bug
-- Fix UFPS icon position during biometric registration
-- Prevent creation of pre-built Lineage apps
-- Switch to Google Apps
+- Update blobs from OS2.0.203.0.VNRMIXM
+- Disable torch light control
+- Add auto Hbm and display saturation
+- Dolby Atmos improvements
 - Update Brazilian Portuguese translation
 
 ==============================
