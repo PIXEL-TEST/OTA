@@ -1,5 +1,5 @@
 AxionOS V2.0 Beta 4 Community Version
-Build date: 23.09.2025
+Build date: 24.09.2025
 Security Patch: September 2025
 
 ==============================
@@ -16,9 +16,18 @@ Devices:
 - Dolby Atmos improvements
 - Update Brazilian Portuguese translation
 
-Hotfix:
-- Auto HBM: Added SELinux policies and fixed biometric bug
-- Security: Replaced broad permissions with specific rules  
+- Hbm and saturation control improvements:
+
+  Consolidated Boot Receiver:
+  Removed Startup receiver (duplicate of BootCompletedReceiver).
+  Moved logic for saturation (applySavedSaturation) and Auto HBM (applyAutoHbmSettings) to BootCompletedReceiver.
+  Added support for Intent.ACTION_REBOOT to cover all boot events (BOOT_COMPLETED, REBOOT, LOCKED_BOOT_COMPLETED).
+  Preserved 5-second delay to ensure stability at boot.
+
+  Updated AndroidManifest.xml:
+  Removed Startup receiver, reducing complexity.
+  Added REBOOT event to BootCompletedReceiver’s intent filter.
+  Preserved all required permissions (ACCESS_SURFACE_FLINGER, WRITE_SECURE_SETTINGS, WRITE_SETTINGS, etc.) and Direct Boot settings.
 
 ==============================
 Notes:
