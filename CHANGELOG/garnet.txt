@@ -16,6 +16,10 @@ Devices:
 - Dolby Atmos improvements
 - Update Brazilian Portuguese translation
 
+Hotfix:
+- Auto HBM: Added SELinux policies and fixed biometric bug
+- Security: Replaced broad permissions with specific rules  
+
 ==============================
 Notes:
 Use the latest global firmware
